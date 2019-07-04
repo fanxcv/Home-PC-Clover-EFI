@@ -180,6 +180,8 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
+		<key>Arguments</key>
+		<string>darkwake=no</string>
 		<key>CustomLogo</key>
 		<string>Apple</string>
 		<key>DefaultVolume</key>
@@ -452,7 +454,7 @@
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
-		<true/>
+		<false/>
 	</dict>
 </dict>
 </plist>
