@@ -180,8 +180,6 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>Arguments</key>
-		<string>darkwake=no</string>
 		<key>CustomLogo</key>
 		<string>Apple</string>
 		<key>DefaultVolume</key>
@@ -196,8 +194,15 @@
 		<true/>
 		<key>Secure</key>
 		<false/>
+		<key>SkipHibernateTimeout</key>
+		<false/>
 		<key>Timeout</key>
 		<integer>30</integer>
+	</dict>
+	<key>BootGraphics</key>
+	<dict>
+		<key>DefaultBackgroundColor</key>
+		<string>0x000000</string>
 	</dict>
 	<key>CPU</key>
 	<dict>
@@ -365,8 +370,6 @@
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
-		<key>AppleRTC</key>
-		<false/>
 		<key>DellSMBIOSPatch</key>
 		<false/>
 		<key>KernelLapic</key>
