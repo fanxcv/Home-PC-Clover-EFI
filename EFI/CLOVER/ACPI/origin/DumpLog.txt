@@ -1,0 +1,120 @@
+5:224  2:703  Found UEFI Acpi 2.0 RSDP at 88DC8000
+5:224  0:000  Saving ACPI tables from RSDP 88DC8000 to EFI\CLOVER\ACPI\origin ...
+5:224  0:000   88DC8000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+5:248  0:024    (Xsdt: 88DC80A8, Rsdt: 88DC8028)
+5:248  0:000    88DC80A8: 'XSDT', 'A M I', Rev: 1, Len: 204 -> XSDT.aml
+5:269  0:021    88DC8028: 'RSDT', 'A M I', Rev: 1, Len: 120 -> RSDT.aml
+5:291  0:021    Tables in Xsdt: 21
+5:291  0:000    0. 88DEEC00: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+5:312  0:021        (Dsdt: 88DC8208, Facs: 88E3DC40, XDsdt: 88DC8208, XFacs: 0)
+5:312  0:000        88DC8208: 'DSDT', 'A M I', Rev: 2, Len: 158197 -> DSDT.aml
+5:358  0:046        88E3DC40: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+5:381  0:022    1. 88DEED18: 'APIC', 'A M I', Rev: 3, Len: 132 -> APIC.aml
+5:404  0:023    2. 88DEEDA0: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+5:426  0:022    3. 88DEEDE8: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+5:449  0:023    4. 88DEEE28: 'SSDT', 'SataTabl', Rev: 1, Len: 956 -> SSDT-0-SataTabl.aml
+5:473  0:023    5. 88DEF1E8: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+5:496  0:023    6. 88DEF288: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633 -> SSDT-1-SaSsdt.aml
+5:518  0:022    7. 88DF23E8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9567 -> SSDT-2-PegSsdt.aml
+5:542  0:023    8. 88DF4948: 'HPET', 'SKL', Rev: 1, Len: 56 -> HPET.aml
+5:565  0:022    9. 88DF4980: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3557 -> SSDT-3-Ther_Rvp.aml
+5:589  0:024    10. 88DF5768: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2601 -> SSDT-4-xh_rvp08.aml
+5:611  0:022    11. 88DF6198: 'UEFI', 'EDK2', Rev: 1, Len: 66 -> UEFI.aml
+5:634  0:022    12. 88DF61E0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806 -> SSDT-5-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+5:657  0:022        * 885F3398: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1881  53 53 44 54 59 07 00 00 02 9D 50 6D 52 65 66 00 Internal length = 1881 -> SSDT-x5_0-Cpu0Ist.aml
+5:679  0:022        * 885DF218: 'SSDT', 'ApIst', Rev: 2, Len: 1628  53 53 44 54 5C 06 00 00 02 AF 50 6D 52 65 66 00 Internal length = 1628 -> SSDT-x5_1-ApIst.aml
+5:702  0:022        * 885DFA98: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 AF 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x5_2-Cpu0Cst.aml
+5:724  0:022        * 885DE018: 'SSDT', 'ApCst', Rev: 2, Len: 394  53 53 44 54 8A 01 00 00 02 39 50 6D 52 65 66 00 Internal length = 394 -> SSDT-x5_3-ApCst.aml
+5:747  0:022        * 885F3C18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 277  53 53 44 54 15 01 00 00 02 AE 50 6D 52 65 66 00 Internal length = 277 -> SSDT-x5_4-Cpu0Hwp.aml
+5:770  0:022        * 885DE218: 'SSDT', 'ApHwp', Rev: 2, Len: 407  53 53 44 54 97 01 00 00 02 F1 50 6D 52 65 66 00 Internal length = 407 -> SSDT-x5_5-ApHwp.aml
+5:792  0:022        * 885DF018: 'SSDT', 'HwpLvt', Rev: 2, Len: 420  53 53 44 54 A4 01 00 00 02 3C 50 6D 52 65 66 00 Internal length = 420 -> SSDT-x5_6-HwpLvt.aml
+5:815  0:022  
+5:815  0:000    13. 88DF70C0: 'LPIT', 'SKL', Rev: 1, Len: 148 -> LPIT.aml
+5:837  0:022    14. 88DF7158: 'WSMT', 'SKL', Rev: 1, Len: 40 -> WSMT.aml
+5:860  0:022    15. 88DF7180: 'SSDT', 'sensrhub', Rev: 2, Len: 671 -> SSDT-6-sensrhub.aml
+5:882  0:022    16. 88DF7420: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290 -> SSDT-7-PtidDevc.aml
+5:907  0:024    17. 88DFA428: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+5:931  0:023    18. 88DFA460: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+5:955  0:023    19. 88DFA4B8: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+5:979  0:023    20. 88DFA4F0: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+6:014  0:034    Tables in Rsdt: 21
+6:014  0:000    0. 88DC8180: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+6:038  0:023        (Dsdt: 88DC8208, Facs: 88E3DC00)
+6:038  0:000        88DC8208: 'DSDT', 'A M I', Rev: 2, Len: 158197
+6:039  0:001        88E3DC00: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+6:066  0:026    1. 88DEED18: 'APIC', 'A M I', Rev: 3, Len: 132
+6:066  0:000    2. 88DEEDA0: 'FPDT', 'A M I', Rev: 1, Len: 68
+6:066  0:000    3. 88DEEDE8: 'MCFG', 'A M I', Rev: 1, Len: 60
+6:066  0:000    4. 88DEEE28: 'SSDT', 'SataTabl', Rev: 1, Len: 956
+6:066  0:000    5. 88DEF1E8: 'FIDT', 'A M I', Rev: 1, Len: 156
+6:066  0:000    6. 88DEF288: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+6:066  0:000    7. 88DF23E8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9567
+6:066  0:000    8. 88DF4948: 'HPET', 'SKL', Rev: 1, Len: 56
+6:066  0:000    9. 88DF4980: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3557
+6:066  0:000    10. 88DF5768: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2601
+6:066  0:000    11. 88DF6198: 'UEFI', 'EDK2', Rev: 1, Len: 66
+6:066  0:000    12. 88DF61E0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+6:066  0:000    13. 88DF70C0: 'LPIT', 'SKL', Rev: 1, Len: 148
+6:066  0:000    14. 88DF7158: 'WSMT', 'SKL', Rev: 1, Len: 40
+6:066  0:000    15. 88DF7180: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+6:066  0:000    16. 88DF7420: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+6:066  0:000    17. 88DFA428: 'DBGP', '', Rev: 1, Len: 52
+6:066  0:000    18. 88DFA460: 'DBG2', '', Rev: 0, Len: 84
+6:066  0:000    19. 88DFA4B8: 'BGRT', 'A M I', Rev: 1, Len: 56
+6:066  0:000    20. 88DFA4F0: 'BGRT', 'A M I', Rev: 1, Len: 56
+6:066  0:000  Found UEFI Acpi 1.0 RSDP at 88DC8000
+6:066  0:000  Printing ACPI tables from RSDP 88DC8000 ...
+6:066  0:000   88DC8000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+6:066  0:000    (Xsdt: 88DC80A8, Rsdt: 88DC8028)
+6:066  0:000    88DC80A8: 'XSDT', 'A M I', Rev: 1, Len: 204
+6:066  0:000    88DC8028: 'RSDT', 'A M I', Rev: 1, Len: 120
+6:066  0:000    Tables in Xsdt: 21
+6:066  0:000    0. 88DEEC00: 'FACP', 'A M I', Rev: 6, Len: 276
+6:066  0:000        (Dsdt: 88DC8208, Facs: 88E3DC40, XDsdt: 88DC8208, XFacs: 0)
+6:066  0:000        88DC8208: 'DSDT', 'A M I', Rev: 2, Len: 158197
+6:067  0:001        88E3DC40: 'FACS', Ver: 2, Len: 64
+6:067  0:000    1. 88DEED18: 'APIC', 'A M I', Rev: 3, Len: 132
+6:067  0:000    2. 88DEEDA0: 'FPDT', 'A M I', Rev: 1, Len: 68
+6:067  0:000    3. 88DEEDE8: 'MCFG', 'A M I', Rev: 1, Len: 60
+6:067  0:000    4. 88DEEE28: 'SSDT', 'SataTabl', Rev: 1, Len: 956
+6:067  0:000    5. 88DEF1E8: 'FIDT', 'A M I', Rev: 1, Len: 156
+6:067  0:000    6. 88DEF288: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+6:067  0:000    7. 88DF23E8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9567
+6:067  0:000    8. 88DF4948: 'HPET', 'SKL', Rev: 1, Len: 56
+6:067  0:000    9. 88DF4980: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3557
+6:067  0:000    10. 88DF5768: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2601
+6:067  0:000    11. 88DF6198: 'UEFI', 'EDK2', Rev: 1, Len: 66
+6:067  0:000    12. 88DF61E0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+6:067  0:000    13. 88DF70C0: 'LPIT', 'SKL', Rev: 1, Len: 148
+6:067  0:000    14. 88DF7158: 'WSMT', 'SKL', Rev: 1, Len: 40
+6:067  0:000    15. 88DF7180: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+6:067  0:000    16. 88DF7420: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+6:067  0:000    17. 88DFA428: 'DBGP', '', Rev: 1, Len: 52
+6:067  0:000    18. 88DFA460: 'DBG2', '', Rev: 0, Len: 84
+6:067  0:000    19. 88DFA4B8: 'BGRT', 'A M I', Rev: 1, Len: 56
+6:067  0:000    20. 88DFA4F0: 'BGRT', 'A M I', Rev: 1, Len: 56
+6:067  0:000    Tables in Rsdt: 21
+6:067  0:000    0. 88DC8180: 'FACP', 'A M I', Rev: 2, Len: 132
+6:067  0:000        (Dsdt: 88DC8208, Facs: 88E3DC00)
+6:067  0:000        88DC8208: 'DSDT', 'A M I', Rev: 2, Len: 158197
+6:068  0:001        88E3DC00: 'FACS', Ver: 0, Len: 64
+6:068  0:000    1. 88DEED18: 'APIC', 'A M I', Rev: 3, Len: 132
+6:068  0:000    2. 88DEEDA0: 'FPDT', 'A M I', Rev: 1, Len: 68
+6:068  0:000    3. 88DEEDE8: 'MCFG', 'A M I', Rev: 1, Len: 60
+6:068  0:000    4. 88DEEE28: 'SSDT', 'SataTabl', Rev: 1, Len: 956
+6:068  0:000    5. 88DEF1E8: 'FIDT', 'A M I', Rev: 1, Len: 156
+6:068  0:000    6. 88DEF288: 'SSDT', 'SaSsdt', Rev: 2, Len: 12633
+6:068  0:000    7. 88DF23E8: 'SSDT', 'PegSsdt', Rev: 2, Len: 9567
+6:068  0:000    8. 88DF4948: 'HPET', 'SKL', Rev: 1, Len: 56
+6:068  0:000    9. 88DF4980: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3557
+6:068  0:000    10. 88DF5768: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2601
+6:068  0:000    11. 88DF6198: 'UEFI', 'EDK2', Rev: 1, Len: 66
+6:068  0:000    12. 88DF61E0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+6:068  0:000    13. 88DF70C0: 'LPIT', 'SKL', Rev: 1, Len: 148
+6:068  0:000    14. 88DF7158: 'WSMT', 'SKL', Rev: 1, Len: 40
+6:068  0:000    15. 88DF7180: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+6:068  0:000    16. 88DF7420: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+6:068  0:000    17. 88DFA428: 'DBGP', '', Rev: 1, Len: 52
+6:068  0:000    18. 88DFA460: 'DBG2', '', Rev: 0, Len: 84
+6:068  0:000    19. 88DFA4B8: 'BGRT', 'A M I', Rev: 1, Len: 56
+6:068  0:000    20. 88DFA4F0: 'BGRT', 'A M I', Rev: 1, Len: 56
